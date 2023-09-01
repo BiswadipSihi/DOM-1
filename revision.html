@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM PRE-CLASS ASSIGNMENT</title>
+</head>
+<body>
+    <input type="text" id="myInput">
+    <button id="myButton" onclick="myButton()">Submit</button>
+    <p id="display"></p>
+</body>
+</html>
+<script>
+    let input = document.getElementById("myInput");
+    let display = document.getElementById("display");
+  function myButton(){
+   let  entered  = input.value;
+   display.innerText = "Entered value: " + entered ;
+    alert ("Entered value: " + input )
+  }
+</script>
